@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/test.css">
+</head>
+<body>
+
+
+    <form class="form" >
+<h2 class="form-title">Оставьте свои данные, мы вам перезвоним</h2>
+   <div class="form-field">
+       <label class="label-modal" for="name">Имя</label>
+<div class="form-person">
+    <input class="form-contacts" type="text" name="name" id="name" autofocus>
+    <svg class="modal-icon" width="18px" height="18px">
+        <use href="./images/sprite.svg#person" ></use>
+    </svg>
+</div>
+
+</div>
+
+   <div class="form-field">
+       <label class="label-modal" for="tel">Телефон</label>
+<div class="form-person">
+    <input class="form-contacts" type="text" name="tel" id="tel">
+    <svg class="modal-icon" width="18px" height="18px">
+        <use href="./images/sprite.svg#telephono" ></use>
+    </svg>
+</div>
+</div>
+
+    <div class="form-field">
+        <label class="label-modal" for="mail">Почта</label>
+    <div class="form-person">
+        <input class="form-contacts" type="email" name="mail" id="mail">
+        <svg class="modal-icon" width="18px" height="18px">
+            <use href="./images/sprite.svg#emailo"></use>
+        </svg>
+    </div>
+</div>
+
+<div class="form-field">
+    <label class="label-modal" for="comment">Комментарий</label>
+    <textarea class="form-textarea" name="comment" id="comment" rows="10" placeholder="Введите текст" ></textarea>
+</div>
+
+<div class="form-field">
+    <input type="checkbox" name="privacy" id="privacy">
+    <label for="privacy">Соглашаюсь с рассылкой и принимаю <a class="text-form" href="">Условия договора</a> 
+    </label>
+</div>
+
+
+   <div class="button-form">
+        <button class="form-button" type="submit">
+            <span class="button-text">Отправить</span>
+        </button>
+   </div>
+
+</form>
+
+</body>
+</html>
